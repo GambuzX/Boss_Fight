@@ -17,6 +17,8 @@ public class knight_movement : MonoBehaviour
     private bool jumpLock;
     private bool attackLock;
 
+    private bool defending;
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -24,20 +26,33 @@ public class knight_movement : MonoBehaviour
         grounded = true;
         jumpLock = true;
         attackLock = false;
+        defending = false;
     }
 
     void Update() {
         
-        if (!attackLock && Input.GetButtonDown("Ranged Attack")) {
+        if (grounded && !defending && !attackLock && Input.GetButtonDown("Ranged Attack")) {
             triggerAttack("attack_ranged");
         }
         
-        if (!attackLock && Input.GetButtonDown("Light Attack")) {
+        if (grounded && !defending && !attackLock && Input.GetButtonDown("Light Attack")) {
             triggerAttack("attack_close_1");
         }
         
-        if (!attackLock && Input.GetButtonDown("Heavy Attack")) {
+        if (grounded && !defending && !attackLock && Input.GetButtonDown("Heavy Attack")) {
             triggerAttack("attack_close_2");
+        }
+
+        if (grounded && !defending && !attackLock && Input.GetButton("Guard")) {
+            animator.SetTrigger("guard");
+            rb.velocity = Vector3.zero;
+            defending = true;
+            animator.SetBool("defending", true);
+        }
+
+        if (Input.GetButtonUp("Guard")) {
+            defending = false;
+            animator.SetBool("defending", false);
         }
 
     }
@@ -56,10 +71,10 @@ public class knight_movement : MonoBehaviour
             transform.eulerAngles = new Vector3(0.0f, 180, 0.0f);
         }
    
-        if (!attackLock)
+        if (!attackLock && !defending)
             rb.velocity = new Vector2(moveHorizontal * speed, rb.velocity.y);
 
-        if (grounded && Input.GetButtonDown("Jump")) {
+        if (grounded && !defending && Input.GetButton("Jump")) {
             animator.SetTrigger("jump");
             rb.AddForce(Vector3.up * jumpForce, ForceMode2D.Impulse);
             grounded = false;
