@@ -28,22 +28,16 @@ public class knight_movement : MonoBehaviour
 
     void Update() {
         
-        if (!attackLock && Input.GetKeyDown(KeyCode.X)) {
-            animator.SetTrigger("attack_ranged");
-            attackLock = true;
-            Invoke("unlockAttack", attackCooldown);
+        if (!attackLock && Input.GetButtonDown("Ranged Attack")) {
+            triggerAttack("attack_ranged");
         }
         
-        if (!attackLock && Input.GetKeyDown(KeyCode.Y)) {
-            animator.SetTrigger("attack_close_1");
-            attackLock = true;
-            Invoke("unlockAttack", attackCooldown);
+        if (!attackLock && Input.GetButtonDown("Light Attack")) {
+            triggerAttack("attack_close_1");
         }
         
-        if (!attackLock && Input.GetKeyDown(KeyCode.Z)) {
-            animator.SetTrigger("attack_close_2");
-            attackLock = true;
-            Invoke("unlockAttack", attackCooldown);
+        if (!attackLock && Input.GetButtonDown("Heavy Attack")) {
+            triggerAttack("attack_close_2");
         }
 
     }
@@ -52,9 +46,7 @@ public class knight_movement : MonoBehaviour
     {
 
         float moveHorizontal = Input.GetAxis("Horizontal");
-        float moveVertical = Input.GetAxis("Vertical");
 
-        Vector3 horiz_mov = new Vector3(moveHorizontal, 0.0f, 0.0f);
         animator.SetFloat("horiz_mov", moveHorizontal);
 
         if (moveHorizontal > 0) {
@@ -65,14 +57,21 @@ public class knight_movement : MonoBehaviour
         }
    
         if (!attackLock)
-            rb.velocity = horiz_mov * speed;
+            rb.velocity = new Vector2(moveHorizontal * speed, rb.velocity.y);
 
-        if (grounded && moveVertical > 0) {
+        if (grounded && Input.GetButtonDown("Jump")) {
             animator.SetTrigger("jump");
-            rb.AddForce(Vector3.up * jumpForce, ForceMode2D.Force);
+            rb.AddForce(Vector3.up * jumpForce, ForceMode2D.Impulse);
             grounded = false;
             Invoke("unlockJump", jumpCooldown);
         }
+    }
+
+    private void triggerAttack(string attack) {
+        animator.SetTrigger(attack);
+        rb.velocity = Vector3.zero;
+        attackLock = true;
+        Invoke("unlockAttack", attackCooldown);
     }
 
     void unlockJump() {

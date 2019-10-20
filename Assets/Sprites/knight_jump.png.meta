@@ -35,6 +35,39 @@ TextureImporter:
   - first:
       213: -1416516969281689354
     second: jump sprite sheet_10
+  - first:
+      213: 1103677130630881736
+    second: knight_jump_0
+  - first:
+      213: -6377545381581587861
+    second: knight_jump_1
+  - first:
+      213: 5364001483271811663
+    second: knight_jump_2
+  - first:
+      213: 3842393451722171096
+    second: knight_jump_3
+  - first:
+      213: -8589677105076389314
+    second: knight_jump_4
+  - first:
+      213: 827835224317147507
+    second: knight_jump_5
+  - first:
+      213: -8444992405490836673
+    second: knight_jump_6
+  - first:
+      213: 524013363239002180
+    second: knight_jump_7
+  - first:
+      213: 1410688494204308379
+    second: knight_jump_8
+  - first:
+      213: -2459936557158152755
+    second: knight_jump_9
+  - first:
+      213: 8342340174627264235
+    second: knight_jump_10
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -119,13 +152,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: jump sprite sheet_0
+      name: knight_jump_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 674
-        width: 300
-        height: 350
+        y: 304
+        width: 226
+        height: 208
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -133,20 +166,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cb9e8a8e753fb6743b0af742f760e183
-      internalID: -8308694302982734542
+      spriteID: 56f0efb3d3b6cbf4bac46cf2863c9f20
+      internalID: 1103677130630881736
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: jump sprite sheet_1
+      name: knight_jump_1
       rect:
         serializedVersion: 2
-        x: 300
-        y: 674
-        width: 300
-        height: 350
+        x: 226
+        y: 304
+        width: 226
+        height: 208
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -154,20 +187,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 719232efeaaad9144bfeacc04919511e
-      internalID: -396584253842381730
+      spriteID: ac0ef21ba838c334c801e56162295c96
+      internalID: -6377545381581587861
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: jump sprite sheet_2
+      name: knight_jump_2
       rect:
         serializedVersion: 2
-        x: 600
-        y: 674
-        width: 300
-        height: 350
+        x: 452
+        y: 304
+        width: 226
+        height: 208
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -175,20 +208,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fa86a918ed7abf445b8263f98c15086d
-      internalID: -3568570392526542907
+      spriteID: e9c740b9605fffa44bb27c3a0254997f
+      internalID: 5364001483271811663
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: jump sprite sheet_3
+      name: knight_jump_3
       rect:
         serializedVersion: 2
-        x: 900
-        y: 674
-        width: 300
-        height: 350
+        x: 678
+        y: 304
+        width: 226
+        height: 208
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -196,62 +229,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d5a82ec31d0e9c14baced9abe17ed78e
-      internalID: 3782621851929493594
+      spriteID: b9091cc50531e854785a4102436342cd
+      internalID: 3842393451722171096
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: jump sprite sheet_4
-      rect:
-        serializedVersion: 2
-        x: 1200
-        y: 674
-        width: 300
-        height: 350
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0cf9dd8529ed7f64ea47d299098c14c1
-      internalID: 1771048863099016874
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: jump sprite sheet_5
-      rect:
-        serializedVersion: 2
-        x: 1500
-        y: 674
-        width: 300
-        height: 350
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3453b1c16c6e52f4db8d53fb4cd22edc
-      internalID: 279590132935617866
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: jump sprite sheet_6
+      name: knight_jump_4
       rect:
         serializedVersion: 2
         x: 0
-        y: 324
-        width: 300
-        height: 350
+        y: 96
+        width: 226
+        height: 208
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -259,20 +250,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 956f5584371562146b15e6c537db16dc
-      internalID: -2712445593858066246
+      spriteID: 599f726388591b049a6063658b95dcaf
+      internalID: -8589677105076389314
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: jump sprite sheet_7
+      name: knight_jump_5
       rect:
         serializedVersion: 2
-        x: 300
-        y: 324
-        width: 300
-        height: 350
+        x: 226
+        y: 96
+        width: 226
+        height: 208
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -280,20 +271,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bc5e613fb9f2b4647966fe7025dd8b30
-      internalID: 5329887011338220705
+      spriteID: 200c31ebaa2e48044b0d45034c00ec42
+      internalID: 827835224317147507
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: jump sprite sheet_8
+      name: knight_jump_6
       rect:
         serializedVersion: 2
-        x: 600
-        y: 324
-        width: 300
-        height: 350
+        x: 452
+        y: 96
+        width: 226
+        height: 208
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -301,50 +292,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5305fa9fcd51b7643a08fa0dc89ab007
-      internalID: -178823794786065012
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: jump sprite sheet_9
-      rect:
-        serializedVersion: 2
-        x: 900
-        y: 324
-        width: 300
-        height: 350
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 26064c56b3093894c9b4605a67c342c1
-      internalID: 4699424674363764543
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: jump sprite sheet_10
-      rect:
-        serializedVersion: 2
-        x: 1200
-        y: 324
-        width: 300
-        height: 350
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8979b9b1f2a2aa048a7dd2f8af730d51
-      internalID: -1416516969281689354
+      spriteID: d3539fc31464976489a4cd0a20fb2baa
+      internalID: -8444992405490836673
       vertices: []
       indices: 
       edges: []

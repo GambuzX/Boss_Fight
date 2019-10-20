@@ -1,73 +1,73 @@
 fileFormatVersion: 2
-guid: 7e3334c8b24568c40b52aa48d448e366
+guid: 22f1a93fea3beb047a2ad1a10720e966
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2419151024025139749
-    second: running sprite sheet_0
+      213: 6368999774816946826
+    second: knight_run_0
   - first:
-      213: 1753391059020466155
-    second: running sprite sheet_1
+      213: 912706671523146190
+    second: knight_run_1
   - first:
-      213: 6978611990953910335
-    second: running sprite sheet_2
+      213: 4789760699948513571
+    second: knight_run_2
   - first:
-      213: -3459858952408350725
-    second: running sprite sheet_3
+      213: -2367849088980741818
+    second: knight_run_3
   - first:
-      213: -2189745728858533996
-    second: running sprite sheet_4
+      213: -3209860270170065137
+    second: knight_run_4
   - first:
-      213: -1543150137525868104
-    second: running sprite sheet_5
+      213: 3763397383351517747
+    second: knight_run_5
   - first:
-      213: 6880028228604493046
-    second: running sprite sheet_6
+      213: 3438688588755107861
+    second: knight_run_6
   - first:
-      213: -6737847113884313705
-    second: running sprite sheet_7
+      213: 4347155542937824173
+    second: knight_run_7
   - first:
-      213: -6851654500357852230
-    second: running sprite sheet_8
+      213: -903689405759883114
+    second: knight_run_8
   - first:
-      213: 1395752333354488735
-    second: running sprite sheet_9
+      213: -767955338897753543
+    second: knight_run_9
   - first:
-      213: -9064436462994307321
-    second: running sprite sheet_10
+      213: -3340388618238693766
+    second: knight_run_10
   - first:
-      213: -1422540202327339950
-    second: running sprite sheet_11
+      213: 6235196066702874459
+    second: knight_run_11
   - first:
-      213: -1965609931706124896
-    second: running sprite sheet_12
+      213: 8692871557814762132
+    second: knight_run_12
   - first:
-      213: -7733516180935406662
-    second: running sprite sheet_13
+      213: -9172352257362679514
+    second: knight_run_13
   - first:
-      213: -2636395167115737355
-    second: running sprite sheet_14
+      213: -3366326928840413128
+    second: knight_run_14
   - first:
-      213: -6514554433829565280
-    second: running sprite sheet_15
+      213: -3345927533538768093
+    second: knight_run_15
   - first:
-      213: 5222140113760658143
-    second: running sprite sheet_16
+      213: -7751835676979622421
+    second: knight_run_16
   - first:
-      213: -1224452493888054681
-    second: running sprite sheet_17
+      213: 2361022393379280567
+    second: knight_run_17
   - first:
-      213: 2864752227369464929
-    second: running sprite sheet_18
+      213: 3144387654856462313
+    second: knight_run_18
   - first:
-      213: -1848180578103339052
-    second: running sprite sheet_19
+      213: 1800820496977453130
+    second: knight_run_19
   - first:
-      213: -5086196659882276951
-    second: running sprite sheet_20
+      213: 8493654917636685245
+    second: knight_run_20
   - first:
-      213: 2981138146277277090
-    second: running sprite sheet_21
+      213: -1674909226653915601
+    second: knight_run_21
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -152,7 +152,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: running sprite sheet_0
+      name: knight_run_0
       rect:
         serializedVersion: 2
         x: 0
@@ -166,14 +166,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3f2d3d82dcd1e09459ce91874583827f
-      internalID: 2419151024025139749
+      spriteID: 0f15cd2035e82284b9b21ce6faa93849
+      internalID: 6368999774816946826
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: running sprite sheet_1
+      name: knight_run_1
       rect:
         serializedVersion: 2
         x: 226
@@ -187,14 +187,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 129e32e677a8cb043be4946805f19935
-      internalID: 1753391059020466155
+      spriteID: 8fa6279fb6a4be14baf45faa1e2b88b0
+      internalID: 912706671523146190
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: running sprite sheet_2
+      name: knight_run_2
       rect:
         serializedVersion: 2
         x: 452
@@ -208,14 +208,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1a82a263227e45f42b2dc0426d6c1cad
-      internalID: 6978611990953910335
+      spriteID: a688004c18a5c3a4b96a42087c7c9447
+      internalID: 4789760699948513571
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: running sprite sheet_3
+      name: knight_run_3
       rect:
         serializedVersion: 2
         x: 678
@@ -229,14 +229,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9e990b8faa5e5fa4b91624802898383b
-      internalID: -3459858952408350725
+      spriteID: 02526a944e03446429c6eda96fa0fd57
+      internalID: -2367849088980741818
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: running sprite sheet_4
+      name: knight_run_4
       rect:
         serializedVersion: 2
         x: 904
@@ -250,14 +250,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1a294b028c7bb774fa317455107c468c
-      internalID: -2189745728858533996
+      spriteID: edff172b482cab5478b50f997032e07c
+      internalID: -3209860270170065137
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: running sprite sheet_5
+      name: knight_run_5
       rect:
         serializedVersion: 2
         x: 1130
@@ -271,14 +271,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9f36d44a26624b643ad37ca74263b20e
-      internalID: -1543150137525868104
+      spriteID: f4be7e6ec485ea2498b797c3419cb02c
+      internalID: 3763397383351517747
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: running sprite sheet_6
+      name: knight_run_6
       rect:
         serializedVersion: 2
         x: 1356
@@ -292,14 +292,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2643ce1a9001f71449dca1916bd36318
-      internalID: 6880028228604493046
+      spriteID: 0f94f4a3a2179294681f3c0adf5bafda
+      internalID: 3438688588755107861
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: running sprite sheet_7
+      name: knight_run_7
       rect:
         serializedVersion: 2
         x: 1582
@@ -313,14 +313,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 83d989bfa7df7fd4f8de6ad6cdb807bc
-      internalID: -6737847113884313705
+      spriteID: 82e67a3783de1c5468ad07d5ac961275
+      internalID: 4347155542937824173
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: running sprite sheet_8
+      name: knight_run_8
       rect:
         serializedVersion: 2
         x: 1808
@@ -334,14 +334,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b2cbd33f86454f24195625e2008f3cff
-      internalID: -6851654500357852230
+      spriteID: 1920b30644e21a448849b884a432377e
+      internalID: -903689405759883114
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: running sprite sheet_9
+      name: knight_run_9
       rect:
         serializedVersion: 2
         x: 0
@@ -355,14 +355,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f967d3f68aa2b1e4b804cba1d1899781
-      internalID: 1395752333354488735
+      spriteID: 9fbb19615e8617c499f7ed5314a6a9bf
+      internalID: -767955338897753543
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: running sprite sheet_10
+      name: knight_run_10
       rect:
         serializedVersion: 2
         x: 226
@@ -376,14 +376,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 31c0a2820454eb143a930ba539d7b816
-      internalID: -9064436462994307321
+      spriteID: 10781f139b5a79945a93deb19ba9ea83
+      internalID: -3340388618238693766
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: running sprite sheet_11
+      name: knight_run_11
       rect:
         serializedVersion: 2
         x: 452
@@ -397,14 +397,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 73c3a1b9c66c04248bb3dab93592542a
-      internalID: -1422540202327339950
+      spriteID: 4143f58809cd8004c833feb4480ba13e
+      internalID: 6235196066702874459
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: running sprite sheet_12
+      name: knight_run_12
       rect:
         serializedVersion: 2
         x: 678
@@ -418,14 +418,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 63d4f4d8384421045bb8bd4419f8dc14
-      internalID: -1965609931706124896
+      spriteID: 4135238915d0e9c41a33a81ee9c6e4a7
+      internalID: 8692871557814762132
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: running sprite sheet_13
+      name: knight_run_13
       rect:
         serializedVersion: 2
         x: 904
@@ -439,14 +439,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d4dc255727d18774bb15d4af5c0b25cf
-      internalID: -7733516180935406662
+      spriteID: e3f32d743a95b454e97267f237df63e8
+      internalID: -9172352257362679514
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: running sprite sheet_14
+      name: knight_run_14
       rect:
         serializedVersion: 2
         x: 1130
@@ -460,14 +460,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 04c781523860e144b93541b9907efa8a
-      internalID: -2636395167115737355
+      spriteID: 05afb57a198c9ae428839df6342728a4
+      internalID: -3366326928840413128
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: running sprite sheet_15
+      name: knight_run_15
       rect:
         serializedVersion: 2
         x: 1356
@@ -481,14 +481,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 14b87a3ef44e68646a6db4cbf723ce5a
-      internalID: -6514554433829565280
+      spriteID: ff0dd1faf646cb342bab85af1757f5f2
+      internalID: -3345927533538768093
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: running sprite sheet_16
+      name: knight_run_16
       rect:
         serializedVersion: 2
         x: 1582
@@ -502,14 +502,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ef8d71fc8c3bff84b854af729a4f6f05
-      internalID: 5222140113760658143
+      spriteID: 5caabbe78a8ef2f43bb6e29c20551170
+      internalID: -7751835676979622421
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: running sprite sheet_17
+      name: knight_run_17
       rect:
         serializedVersion: 2
         x: 1808
@@ -523,14 +523,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 418d2f737cf0c8f41a8e031fae917d45
-      internalID: -1224452493888054681
+      spriteID: 883064c2c89faf64994a61300166fc6f
+      internalID: 2361022393379280567
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: running sprite sheet_18
+      name: knight_run_18
       rect:
         serializedVersion: 2
         x: 0
@@ -544,14 +544,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: efb19421785be2b489a84736aedf299c
-      internalID: 2864752227369464929
+      spriteID: 0b66ab0967556ce41ac251e1301040f2
+      internalID: 3144387654856462313
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: running sprite sheet_19
+      name: knight_run_19
       rect:
         serializedVersion: 2
         x: 226
@@ -565,14 +565,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c23f08c3d400ae04fb784530fbb34765
-      internalID: -1848180578103339052
+      spriteID: 8ddfd92f60cface4a945c7b067378b6b
+      internalID: 1800820496977453130
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: running sprite sheet_20
+      name: knight_run_20
       rect:
         serializedVersion: 2
         x: 452
@@ -586,14 +586,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fbbdd3ce75a92684bb714aac4a88037e
-      internalID: -5086196659882276951
+      spriteID: bc0ee78bf8c300041b38948bc109baf8
+      internalID: 8493654917636685245
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: running sprite sheet_21
+      name: knight_run_21
       rect:
         serializedVersion: 2
         x: 678
@@ -607,8 +607,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4e56b94a93b2cf44a8cd88e371b918d9
-      internalID: 2981138146277277090
+      spriteID: 4ee841661c5b0204daaabf7ac6828745
+      internalID: -1674909226653915601
       vertices: []
       indices: 
       edges: []
