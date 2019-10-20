@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class PlayerHealth : MonoBehaviour
 {
@@ -15,7 +16,7 @@ public class PlayerHealth : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        health = 4;    
+        health = 6;    
         healthLock = false;
         healthBar = GameObject.Find("Health_Bar").GetComponent<RectTransform>();
         knightMovement = GetComponent<knight_movement>();
@@ -30,13 +31,18 @@ public class PlayerHealth : MonoBehaviour
     public void loseHealth() {
         if (healthLock || health <= 0) return;
         health--;
+
+        if(health == 0) {
+            SceneManager.LoadScene(2);
+        }
+
         updateHealthBar();
         healthLock = true;
         Invoke("unlockHealth", 1f);
     }
 
     private void updateHealthBar() {
-        healthBar.localScale = new Vector3(health * 0.25f, healthBar.localScale.y, 1);
+        healthBar.localScale = new Vector3(health * 1.0f/6, healthBar.localScale.y, 1);
     }
 
     private void unlockHealth() {

@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class BlobHealth : MonoBehaviour
 {
@@ -28,6 +29,11 @@ public class BlobHealth : MonoBehaviour
         if(healthLock || health <= 0) return;
 
         health--;
+
+        if(health == 0) {
+            SceneManager.LoadScene(2);
+        }
+
         updateHealthBar();
         healthLock = true;
         Invoke("unlockHealth", 0.5f);
