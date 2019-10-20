@@ -16,8 +16,10 @@ public class knight_movement : MonoBehaviour
     private bool grounded;
     private bool jumpLock;
     private bool attackLock;
+    private bool guardLock;
 
     private bool defending;
+    private bool flying;
 
     void Start()
     {
@@ -26,6 +28,7 @@ public class knight_movement : MonoBehaviour
         grounded = true;
         jumpLock = true;
         attackLock = false;
+        guardLock = false;
         defending = false;
     }
 
@@ -45,14 +48,20 @@ public class knight_movement : MonoBehaviour
 
         if (grounded && !defending && !attackLock && Input.GetButton("Guard")) {
             animator.SetTrigger("guard");
-            rb.velocity = Vector3.zero;
-            defending = true;
             animator.SetBool("defending", true);
+            rb.velocity = Vector3.zero;
+            //Invoke("setDefending", 0.6f);
+            defending = true;
+            guardLock = true;
+            animator.ResetTrigger("released_guard");
+            //Invoke("unlockGuard", 1.0f);
         }
 
         if (Input.GetButtonUp("Guard")) {
             defending = false;
             animator.SetBool("defending", false);
+            animator.SetTrigger("released_guard");
+            rb.velocity = Vector3.zero;
         }
 
     }
@@ -95,5 +104,31 @@ public class knight_movement : MonoBehaviour
 
     void unlockAttack() {
         attackLock = false;
+    }
+    void unlockGuard() {
+        guardLock = false;
+    }
+
+    private void setDefending() {
+        defending = true;
+    }
+
+    public bool getDefending() {
+        return defending;
+    }
+
+    public bool getFlying() {
+        return flying;
+    }
+
+    public void knockBack() {
+        rb.AddForce((Vector3.up + Vector3.left) * jumpForce, ForceMode2D.Impulse);
+        flying = true;
+        Invoke("stopKnockback", 1);
+    }
+
+    private void stopKnockback() {
+        rb.velocity = Vector3.zero;
+        flying = false;
     }
 }

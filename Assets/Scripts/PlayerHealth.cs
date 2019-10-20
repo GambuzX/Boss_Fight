@@ -10,6 +10,7 @@ public class PlayerHealth : MonoBehaviour
     private RectTransform healthBar;
 
     private bool healthLock;
+    private knight_movement knightMovement;
 
     // Start is called before the first frame update
     void Start()
@@ -17,6 +18,7 @@ public class PlayerHealth : MonoBehaviour
         health = 4;    
         healthLock = false;
         healthBar = GameObject.Find("Health_Bar").GetComponent<RectTransform>();
+        knightMovement = GetComponent<knight_movement>();
     }
 
     // Update is called once per frame
@@ -39,5 +41,18 @@ public class PlayerHealth : MonoBehaviour
 
     private void unlockHealth() {
         healthLock = false;
+    }
+
+    private void OnTriggerEnter2D(Collider2D collider) {
+        if(collider.gameObject.CompareTag("EnemyAttack")) {
+            if (knightMovement.getFlying()) return;
+            
+            if (knightMovement.getDefending()) {
+                knightMovement.knockBack();
+            }
+            else {
+                loseHealth();
+            }
+        }
     }
 }
