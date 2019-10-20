@@ -1,0 +1,487 @@
+fileFormatVersion: 2
+guid: 5c9875902e6c7a84986dcf37ba5379a4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3480993616803577946
+    second: attack enemy sheet_0
+  - first:
+      213: 1523951441351745259
+    second: attack enemy sheet_1
+  - first:
+      213: -219401204560264546
+    second: attack enemy sheet_2
+  - first:
+      213: 1561455965968561784
+    second: attack enemy sheet_3
+  - first:
+      213: 4405932654289816035
+    second: attack enemy sheet_4
+  - first:
+      213: -3592499494519179823
+    second: attack enemy sheet_5
+  - first:
+      213: -6443736989702702704
+    second: attack enemy sheet_6
+  - first:
+      213: 5064685942769751884
+    second: attack enemy sheet_7
+  - first:
+      213: 7165158957260645384
+    second: attack enemy sheet_8
+  - first:
+      213: -5111540997710235520
+    second: attack enemy sheet_9
+  - first:
+      213: 394043165289790346
+    second: attack enemy sheet_10
+  - first:
+      213: 3644854258282147682
+    second: attack enemy sheet_11
+  - first:
+      213: 4362269473157786032
+    second: attack enemy sheet_12
+  - first:
+      213: 6274423927344230628
+    second: attack enemy sheet_13
+  - first:
+      213: 1243234884813553025
+    second: attack enemy sheet_14
+  - first:
+      213: 3594659717888615385
+    second: attack enemy sheet_15
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: attack enemy sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1698
+        width: 500
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbaa53c0afe48ca49a88eb97302ce1ca
+      internalID: -3480993616803577946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack enemy sheet_1
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 1698
+        width: 500
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 244e4b1551d66ca47a7a6c84d2b15ebe
+      internalID: 1523951441351745259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack enemy sheet_2
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 1698
+        width: 500
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35fdf7b70bddb7940a49be79e190e167
+      internalID: -219401204560264546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack enemy sheet_3
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 1698
+        width: 500
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82f169c73b5a99d498467f90be1375f3
+      internalID: 1561455965968561784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack enemy sheet_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1348
+        width: 500
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 671d032450ed35446b5b4971aa55e241
+      internalID: 4405932654289816035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack enemy sheet_5
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 1348
+        width: 500
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db8b29e34674baa41ad9cdfdf2af2b2e
+      internalID: -3592499494519179823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack enemy sheet_6
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 1348
+        width: 500
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff230906d7d8ef44d8f3d6235d8c036b
+      internalID: -6443736989702702704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack enemy sheet_7
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 1348
+        width: 500
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4eeaf62ccf3a73141a08f80eae2af535
+      internalID: 5064685942769751884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack enemy sheet_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 998
+        width: 500
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03237b85472f7464ca2c73c7650572fc
+      internalID: 7165158957260645384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack enemy sheet_9
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 998
+        width: 500
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19459382968903a46a0eb1f9cd00092d
+      internalID: -5111540997710235520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack enemy sheet_10
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 998
+        width: 500
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0888e3c73cacb39419b7cd0965c7fc05
+      internalID: 394043165289790346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack enemy sheet_11
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 998
+        width: 500
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1387964201217fc4389508f64e39f1da
+      internalID: 3644854258282147682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack enemy sheet_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 648
+        width: 500
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6aa8e62d4b2a2e4abb4ec513cfe2f11
+      internalID: 4362269473157786032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack enemy sheet_13
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 648
+        width: 500
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f84965875f8c0c47879b8bd286063bb
+      internalID: 6274423927344230628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack enemy sheet_14
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 648
+        width: 500
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc131954adf8d234d90c6c006a97cb02
+      internalID: 1243234884813553025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack enemy sheet_15
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 648
+        width: 500
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cef83e9484de37e4184352e5d2a883fb
+      internalID: 3594659717888615385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

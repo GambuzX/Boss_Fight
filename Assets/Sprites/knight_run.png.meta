@@ -1,0 +1,631 @@
+fileFormatVersion: 2
+guid: 7e3334c8b24568c40b52aa48d448e366
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2419151024025139749
+    second: running sprite sheet_0
+  - first:
+      213: 1753391059020466155
+    second: running sprite sheet_1
+  - first:
+      213: 6978611990953910335
+    second: running sprite sheet_2
+  - first:
+      213: -3459858952408350725
+    second: running sprite sheet_3
+  - first:
+      213: -2189745728858533996
+    second: running sprite sheet_4
+  - first:
+      213: -1543150137525868104
+    second: running sprite sheet_5
+  - first:
+      213: 6880028228604493046
+    second: running sprite sheet_6
+  - first:
+      213: -6737847113884313705
+    second: running sprite sheet_7
+  - first:
+      213: -6851654500357852230
+    second: running sprite sheet_8
+  - first:
+      213: 1395752333354488735
+    second: running sprite sheet_9
+  - first:
+      213: -9064436462994307321
+    second: running sprite sheet_10
+  - first:
+      213: -1422540202327339950
+    second: running sprite sheet_11
+  - first:
+      213: -1965609931706124896
+    second: running sprite sheet_12
+  - first:
+      213: -7733516180935406662
+    second: running sprite sheet_13
+  - first:
+      213: -2636395167115737355
+    second: running sprite sheet_14
+  - first:
+      213: -6514554433829565280
+    second: running sprite sheet_15
+  - first:
+      213: 5222140113760658143
+    second: running sprite sheet_16
+  - first:
+      213: -1224452493888054681
+    second: running sprite sheet_17
+  - first:
+      213: 2864752227369464929
+    second: running sprite sheet_18
+  - first:
+      213: -1848180578103339052
+    second: running sprite sheet_19
+  - first:
+      213: -5086196659882276951
+    second: running sprite sheet_20
+  - first:
+      213: 2981138146277277090
+    second: running sprite sheet_21
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: running sprite sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 816
+        width: 226
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f2d3d82dcd1e09459ce91874583827f
+      internalID: 2419151024025139749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: running sprite sheet_1
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 816
+        width: 226
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 129e32e677a8cb043be4946805f19935
+      internalID: 1753391059020466155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: running sprite sheet_2
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 816
+        width: 226
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a82a263227e45f42b2dc0426d6c1cad
+      internalID: 6978611990953910335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: running sprite sheet_3
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 816
+        width: 226
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e990b8faa5e5fa4b91624802898383b
+      internalID: -3459858952408350725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: running sprite sheet_4
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 816
+        width: 226
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a294b028c7bb774fa317455107c468c
+      internalID: -2189745728858533996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: running sprite sheet_5
+      rect:
+        serializedVersion: 2
+        x: 1130
+        y: 816
+        width: 226
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f36d44a26624b643ad37ca74263b20e
+      internalID: -1543150137525868104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: running sprite sheet_6
+      rect:
+        serializedVersion: 2
+        x: 1356
+        y: 816
+        width: 226
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2643ce1a9001f71449dca1916bd36318
+      internalID: 6880028228604493046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: running sprite sheet_7
+      rect:
+        serializedVersion: 2
+        x: 1582
+        y: 816
+        width: 226
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83d989bfa7df7fd4f8de6ad6cdb807bc
+      internalID: -6737847113884313705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: running sprite sheet_8
+      rect:
+        serializedVersion: 2
+        x: 1808
+        y: 816
+        width: 226
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2cbd33f86454f24195625e2008f3cff
+      internalID: -6851654500357852230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: running sprite sheet_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 608
+        width: 226
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f967d3f68aa2b1e4b804cba1d1899781
+      internalID: 1395752333354488735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: running sprite sheet_10
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 608
+        width: 226
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31c0a2820454eb143a930ba539d7b816
+      internalID: -9064436462994307321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: running sprite sheet_11
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 608
+        width: 226
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73c3a1b9c66c04248bb3dab93592542a
+      internalID: -1422540202327339950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: running sprite sheet_12
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 608
+        width: 226
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63d4f4d8384421045bb8bd4419f8dc14
+      internalID: -1965609931706124896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: running sprite sheet_13
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 608
+        width: 226
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4dc255727d18774bb15d4af5c0b25cf
+      internalID: -7733516180935406662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: running sprite sheet_14
+      rect:
+        serializedVersion: 2
+        x: 1130
+        y: 608
+        width: 226
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04c781523860e144b93541b9907efa8a
+      internalID: -2636395167115737355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: running sprite sheet_15
+      rect:
+        serializedVersion: 2
+        x: 1356
+        y: 608
+        width: 226
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14b87a3ef44e68646a6db4cbf723ce5a
+      internalID: -6514554433829565280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: running sprite sheet_16
+      rect:
+        serializedVersion: 2
+        x: 1582
+        y: 608
+        width: 226
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef8d71fc8c3bff84b854af729a4f6f05
+      internalID: 5222140113760658143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: running sprite sheet_17
+      rect:
+        serializedVersion: 2
+        x: 1808
+        y: 608
+        width: 226
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 418d2f737cf0c8f41a8e031fae917d45
+      internalID: -1224452493888054681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: running sprite sheet_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 400
+        width: 226
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efb19421785be2b489a84736aedf299c
+      internalID: 2864752227369464929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: running sprite sheet_19
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 400
+        width: 226
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c23f08c3d400ae04fb784530fbb34765
+      internalID: -1848180578103339052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: running sprite sheet_20
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 400
+        width: 226
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbbdd3ce75a92684bb714aac4a88037e
+      internalID: -5086196659882276951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: running sprite sheet_21
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 400
+        width: 226
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e56b94a93b2cf44a8cd88e371b918d9
+      internalID: 2981138146277277090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
