@@ -11,10 +11,15 @@ public class BlobController : MonoBehaviour
 
     private Animator animator;
 
+    private PlayerHealth playerHealth;
+
+    private 
+
     // Start is called before the first frame update
     void Start()
     {
         animator = GetComponentInChildren<Animator>();
+        playerHealth = GameObject.FindObjectOfType<PlayerHealth>();
         attackLock = false;
     }
 
@@ -51,5 +56,11 @@ public class BlobController : MonoBehaviour
 
     void unlockAttack() {
         attackLock = false;
+    }
+
+    void OnCollisionStay2D(Collision2D collider) {
+        Debug.Log("collided");
+        if (collider.gameObject.CompareTag("Player"))
+            playerHealth.loseHealth();
     }
 }
